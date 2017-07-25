@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   // compile handlebars template
   var source = $('#books-template').html();
-  template = Handlebars.compile(source);
+  template = Handlebars.compile(source); //Handlebars is templating language (like ejs)//
 
   $.ajax({
     method: 'GET',
